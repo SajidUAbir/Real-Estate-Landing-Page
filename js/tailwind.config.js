@@ -6,7 +6,8 @@ tailwind.config = {
           'orange': '#FF7527',
           'yellow' : '#EEEDDE',
           'gray' : '#2032398C',
-          'white': '#EEEDDE'
+          'white': '#EEEDDE',
+           light: "#D6D5C7",
         },
         fontFamily: {
             'Poppins': ['Poppins'],
@@ -17,3 +18,4 @@ tailwind.config = {
       }
     }
   }
+
