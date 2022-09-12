@@ -5,7 +5,8 @@ tailwind.config = {
           'dark' : '#203239',
           'orange': '#FF7527',
           'yellow' : '#EEEDDE',
-          'gray' : '#2032398C'
+          'gray' : '#2032398C',
+          'white': '#EEEDDE'
         },
         fontFamily: {
             'Poppins': ['Poppins'],
