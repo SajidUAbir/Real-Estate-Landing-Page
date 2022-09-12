@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Real Estate Landing Page</title>
     <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
-
+    
     <!-- Tailwind -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="js/tailwind.config.js"></script>
@@ -21,28 +21,58 @@
 
 </head>
 <body>
-        <!-- ################################## -->
-    <!--          footer part start         -->
-    <!-- ################################## -->
-    <div class="bg-dark">
-        <div class="max-w-container md:flex md:items-center mx-auto py-[40px]">
-          <div class="md:w-3/6">
-            <div class="flex justify-center md:block">
-              <picture>
-                <img class="" src="images/footerLogo.png" alt="" />
-              </picture>
+
+    <!-- ====================
+        banner part start
+    ====================== -->
+
+    <section class="banner py-[100px] bg-[#EEEDDE] ">
+       <div class="max-w-container mx-auto relative">
+        <img class="absolute top-[-82px] right-[0]" src="images/Banner/banner.png" alt="banner">
+        <div class="banner-item">
+            <h1 class="w-[777px] leading-[130%] pb-[24px] font-poppins text-[56px] font-semibold">Temukan Hunian Keluarga Sesuai Keinginanmu</h1>
+            <p class="w-[480px] leading-[150%] pb-[56px] font-poppins text-[16px] font-light">Menyediakan hunian bagi keluarga anda dengan varian pilihan dan lokasi yang strategis di kota anda dengan cara yang lebih mudah.</p>
+            <div class="search flex pb-[56px]">
+                <div class="icon w-[30px] py-[15px] rounded-l-[15px] bg-white flex items-center justify-center">
+                    <i class="fa-regular fa-location-dot"></i>
+                </div>
+                <input class="w-[387px] py-[15px] border-[#fff] outline-0" placeholder="Search location, properties, residental group" type="text" name="search" type="search">
+                <div class="buttons w-[200px]  py-[15px] flex items-center justify-end bg-white rounded-r-[15px]">
+                    <div class="button bg-[#203239] py-[10px] px-[30px] rounded-[10px] text-white mr-[20px] font-poppins font-semibold" type="submit">Search</div>
+                </div>
             </div>
-          </div>
-          <div class="md:block md:w-3/6 flex justify-center">
-            <div class="flex gap-x-10 md:justify-end text-white">
-              <i class="text-[24px] fa-brands fa-instagram"></i>
-              <i class="text-[24px] fa-brands fa-facebook-f"></i>
-              <i class="text-[24px] fa-brands fa-twitter"></i>
-              <i class="text-[24px] fa-brands fa-linkedin-in"></i>
+            <div class="conutdown flex">
+                <div class="countdown-1 flex w-[200px] items-center">
+                    <h2 class="font-poppins font-semibold text-[#203239] text-[56px]">200</h2>
+                    <p class="font-poppins font-semibold text-[56px] text-[#FF7527]">+</p>
+                </div>
+                <div class="countdown-2 flex w-[200px] items-center">
+                    <h2 class="font-poppins font-semibold text-[#203239] text-[56px]">10</h2>
+                    <p class="font-poppins font-semibold text-[56px] text-[#FF7527]">+</p>
+                </div>
+                <div class="countdown-3 flex w-[200px] items-center">
+                    <h2 class="font-poppins font-semibold text-[#203239] text-[56px]">999</h2>
+                    <p class="font-poppins font-semibold text-[56px] text-[#FF7527]">+</p>
+                </div>
             </div>
-      <!-- ################################## -->
-      <!--            footer part start       -->
-      <!-- ################################## -->
+            <div class="countdown-text flex">
+                <div class="countdown-text-1 w-[200px]">
+                    <p class="w-[120px] font-poppins font-light text-[16px] text-[#203239]">Residental grup telah bergabung</p>
+                </div>
+                <div class="countdown-text-2 w-[200px]">
+                    <p class="w-[120px] font-poppins font-light text-[16px] text-[#203239]">Sudah berpengalaman </p>
+                </div>
+                <div class="countdown-text-3 w-[200px]">
+                    <p class="w-[120px] font-poppins font-light text-[16px] text-[#203239]">Properti tersedia di berbagai Kota</p>
+                </div>
+            </div>
+        </div>
+       </div>
+    </section>
+
+    <!-- ====================
+        banner part end
+    ====================== -->
     
 </body>
 </html>
