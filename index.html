@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,16 +12,59 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="js/tailwind.config.js"></script>
 
+    <link rel="stylesheet" href="css/all.min.css">
+
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 
 </head>
+
 <body>
     <!-- ====================
-        comment style
+        Navbar Start
     ====================== -->
-    
+    <nav class="bg-ofwhite py-7">
+        <div class="container mx-auto">
+            <div class="flex items-center">
+                <div class="logo w-2/4">
+                    <picture>
+                        <img src="./images/logo.png" alt="">
+                    </picture>
+                </div>
+                <div class="menu w-2/4">
+                    <ul class="flex items-center justify-end text-grey gap-x-24">
+                        <li
+                            class="group cursor-pointer text-base font-poppins font-light hover:font-semibold relative transition-all duration-300">
+                            Home
+                            <span
+                                class="group-hover:w-2/5 absolute h-[3px] content[''] bg-orange left-[50%] top-[120%] translate-x-[-50%] rounded-2xl transition-all duration-300"></span>
+                        </li>
+                        <li
+                            class="group cursor-pointer text-base font-poppins font-light hover:font-semibold relative transition-all duration-300">
+                            About
+                            <span
+                                class="group-hover:w-2/5 absolute h-[3px] content[''] bg-orange left-[50%] top-[120%] translate-x-[-50%] rounded-2xl transition-all duration-300"></span>
+                        </li>
+                        <li
+                            class="group cursor-pointer text-base font-poppins font-light hover:font-semibold relative transition-all duration-300">
+                            Properties <i class="fa-solid fa-chevron-down"></i>
+                            <span
+                                class="group-hover:w-2/5 absolute h-[3px] content[''] bg-orange left-[50%] top-[120%] translate-x-[-50%] rounded-2xl transition-all duration-300"></span>
+                        </li>
+                        <li
+                            class="group cursor-pointer text-base font-poppins font-light hover:font-semibold relative transition-all duration-300">
+                            Contact
+                            <span
+                                class="group-hover:w-2/5 absolute h-[3px] content[''] bg-orange left-[50%] top-[120%] translate-x-[-50%] rounded-2xl transition-all duration-300"></span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
 </body>
+
 </html>

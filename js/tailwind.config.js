@@ -5,10 +5,11 @@ tailwind.config = {
           'dark' : '#203239',
           'orange': '#FF7527',
           'yellow' : '#EEEDDE',
-          'gray' : '#2032398C'
+          'gray' : '#2032398C',
+          'ofwhite' : '#EEEDDE'
         },
         fontFamily: {
-            'Poppins': ['Poppins'],
+            'poppins': ['Poppins'],
           },
         maxWidth: {
             'container': '1166px',
